@@ -30,7 +30,6 @@ Add
 
 ```ruby
 group :development, :test do
-  # Go back to upstream if/when https://github.com/deivid-rodriguez/pry-byebug/pull/ 428 is merged.
   gem 'pry-byebug', require: false, github: 'davidrunger/pry-byebug'
 end
 ```
